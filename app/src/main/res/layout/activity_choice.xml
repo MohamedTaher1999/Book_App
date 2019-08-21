@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.example.taher.listview.Choice">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/sport"
+        android:text="Sport"
+        android:textStyle="bold"
+        android:background="@drawable/btn_shape"
+        android:textSize="30dp"
+        android:layout_above="@+id/life"
+        android:layout_alignLeft="@+id/life"
+        android:layout_alignStart="@+id/life"
+        android:layout_marginBottom="12dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/life"
+        android:background="@drawable/btn_shape"
+        android:text="Life"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_above="@+id/love"
+        android:layout_alignLeft="@+id/love"
+        android:layout_alignStart="@+id/love"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Love"
+        android:background="@drawable/btn_shape"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/love"
+
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/time"
+        android:layout_alignLeft="@+id/time"
+        android:layout_alignStart="@+id/time" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/time"
+        android:text="time"
+        android:background="@drawable/btn_shape"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_above="@+id/favourite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text=" Favourite"
+        android:background="@drawable/btn_shape"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/favourite"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/time"
+        android:layout_alignStart="@+id/time" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Categories"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+
+</RelativeLayout>
